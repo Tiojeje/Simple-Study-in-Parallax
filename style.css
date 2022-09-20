@@ -1,0 +1,62 @@
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+
+}
+
+.conteudo{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+   
+}
+.boxone, .boxtwo, .boxthree, .boxfour{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+}
+h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+.boxone{
+    background-image: url("../parallax/imagens/imagem1.jpg");
+    
+}
+
+.boxtwo{
+    background-image: url("../parallax/imagens/imagem2.jpg");
+}
+.boxthree{
+    background-image: url("../parallax/imagens/imagem3.jpg");
+
+}
+.boxfour{
+    background-image: url("../parallax/imagens/imagem4.jpg");
+
+}
+.agrupa-meio{
+    position: absolute;
+    top:45%;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    left: 0%;
+
+   
+
+}
+.agrupa-meio span.titulo{
+    color:white;
+    padding: 18px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #111;
+}
